@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap');
 
 body {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
     background-color: #121212; /* Couleur de fond sombre */
     color: #eeeeee; /* Couleur du texte clair */
@@ -10,9 +10,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lobster Two', cursive; /* Police Lobster pour les titres */
+	padding: 6px 0;
+	margin: 0;
 }
 h1{
-	color: orange;
+	color: rgb(250, 208, 129);
 	font-size: 220%;
 }
 h2{
@@ -20,7 +22,7 @@ h2{
 	font-size: 140%;
 }
 h3{
-	color: orangered
+	color: rgb(255, 155, 118)
 }
 ul, ol {
     color: #eeeeee; /* Couleur du texte clair pour les listes */
@@ -38,10 +40,11 @@ a:hover {
 }
 .ingredient{
 	font-size: 90%;
+	display: flex;
 }
 .container {
 	display: grid;
-	grid-template-columns: 3fr 1fr 30fr;
+	grid-template-columns: 1fr 1fr 4fr;
 }
 
 .qte{
@@ -58,4 +61,14 @@ a:hover {
 grid-item {
 	display: grid;
 	align-items: end;
-  }    
+}  
+
+
+.grand-contenant {
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	align-items: start;
+}
+p {
+	margin: 0 0 16px 0;
+}
