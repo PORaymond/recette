@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap');
 
 body {
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
     background-color: #121212; /* Couleur de fond sombre */
     color: #eeeeee; /* Couleur du texte clair */
@@ -28,7 +28,7 @@ ul, ol {
     color: #eeeeee; /* Couleur du texte clair pour les listes */
 }
 ol > li {
-	padding : 10px;
+	padding : 10px 0;
 	}
 
 a {
@@ -39,16 +39,15 @@ a:hover {
     color: #03dac6; /* Couleur des liens au survol */
 }
 .ingredient{
-	font-size: 90%;
 	display: flex;
 }
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 4fr;
+	grid-template-columns: 1fr 1fr 6fr;
 }
 
 .qte{
-	font-size: 120%;
+	font-size: 100%;
 	color: #f5e870;
 	text-align: right;
 }
@@ -71,4 +70,10 @@ grid-item {
 }
 p {
 	margin: 0 0 16px 0;
+}
+sub {
+	padding:0 0 0 2px ;
+	position: relative;
+	top: -5px;
+
 }
