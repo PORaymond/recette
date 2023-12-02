@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap');
+
+body {
+	width: 60%;
+	margin: 0 auto;
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #eeeeee; /* Couleur du texte clair */
+    font-family: 'Lato', sans-serif; /* Police Lato pour le texte principal */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster Two', cursive; /* Police Lobster pour les titres */
+}
+h1{
+	color: orange;
+	font-size: 220%;
+}
+h2{
+	color: #ff7500;
+	font-size: 140%;
+}
+h3{
+	color: orangered
+}
+ul, ol {
+    color: #eeeeee; /* Couleur du texte clair pour les listes */
+}
+ol > li {
+	padding : 10px;
+	}
+
+a {
+    color: #bb86fc; /* Couleur des liens */
+}
+
+a:hover {
+    color: #03dac6; /* Couleur des liens au survol */
+}
+.ingredient{
+	font-size: 90%;
+}
+.container {
+	display: grid;
+	grid-template-columns: 3fr 1fr 30fr;
+}
+
+.qte{
+	font-size: 120%;
+	color: #f5e870;
+	text-align: right;
+}
+
+.unite{
+	color: #f7ed99; 
+	padding: 0 3px;
+}
+
+grid-item {
+	display: grid;
+	align-items: end;
+  }    
