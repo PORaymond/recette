@@ -28,15 +28,18 @@ ul, ol {
     color: #eeeeee; /* Couleur du texte clair pour les listes */
 }
 ol > li {
-	padding : 10px 0;
+	font-size: 85%;
+	padding : 0;
 	}
 
 a {
-    color: #bb86fc; /* Couleur des liens */
+	text-decoration: none;
+
+    color: #e3cdff; /* Couleur des liens */
 }
 
 a:hover {
-    color: #03dac6; /* Couleur des liens au survol */
+    color: #a1fff6; /* Couleur des liens au survol */
 }
 .ingredient{
 	display: flex;
