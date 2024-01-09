@@ -75,8 +75,11 @@ p {
 	margin: 0 0 16px 0;
 }
 sub {
-	padding:0 0 0 2px ;
+	padding:0 0 0 1px ;
 	position: relative;
 	top: -5px;
 
+}
+.instruction {
+	padding: 5px 0;
 }
